@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Komunitas Mabar Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <header class="bg-gradient-to-r from-indigo-700 to-purple-800 p-8 text-center shadow-lg">
+    <h1 class="text-3xl font-bold flex items-center justify-center gap-2">
+      <i class="ph ph-game-controller"></i> Komunitas Mabar Game
+    </h1>
+    <p class="text-lg italic mt-2">Bersatu dalam game, berkelas dalam aksi!</p>
+  </header>
+
+  <section class="text-center px-6 py-4">
+    <p class="text-base text-gray-300 max-w-2xl mx-auto">
+      Selamat datang di Komunitas Mabar Game! Di sini tempatnya kamu cari teman satu tim, lawan mabar yang seru, atau sekadar nongkrong bareng pecinta game dari seluruh Indonesia.
+      Klik salah satu game di bawah ini dan langsung gabung keseruan komunitas!
+    </p>
+  </section>
+
+  <main class="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <!-- Mobile Legends -->
+    <a href="https://play.google.com/store/apps/details?id=com.mobile.legends" target="_blank" class="block">
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+        <img src="https://seeklogo.com/images/M/mobile-legends-logo-828D82E4E9-seeklogo.com.png" alt="Mobile Legends" class="w-full h-40 object-contain bg-black p-2">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-2 flex items-center gap-2">Mobile Legends</h2>
+          <p class="text-sm">5v5 seru? Langsung gas mabar bareng tim kamu!</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Free Fire -->
+    <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth" target="_blank" class="block">
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+        <img src="https://seeklogo.com/images/F/free-fire-logo-065B69231D-seeklogo.com.png" alt="Free Fire" class="w-full h-40 object-contain bg-black p-2">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-2 flex items-center gap-2">Free Fire</h2>
+          <p class="text-sm">Satu squad, satu tujuan: Booyah bareng!</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Delta Force -->
+    <a href="https://play.google.com/store/apps/details?id=com.novalogic.deltaforce" target="_blank" class="block">
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Delta_Force_game_cover.jpg" alt="Delta Force" class="w-full h-40 object-cover bg-black">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-2 flex items-center gap-2">Delta Force</h2>
+          <p class="text-sm">Adu taktik dan kekompakan bareng tim elit!</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Growtopia -->
+    <a href="https://play.google.com/store/apps/details?id=com.rtsoft.growtopia" target="_blank" class="block">
+      <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Growtopia_Logo.png/220px-Growtopia_Logo.png" alt="Growtopia" class="w-full h-40 object-contain bg-black p-2">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold mb-2 flex items-center gap-2">Growtopia</h2>
+          <p class="text-sm">Bangun dunia kamu, farming bareng temen!</p>
+        </div>
+      </div>
+    </a>
+  </main>
+
+  <div class="text-center my-8 flex flex-col items-center gap-4">
+    <a href="https://wa.me/6281276587106" target="_blank" class="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition">
+      <i class="ph ph-whatsapp-logo"></i> Chat Admin via WhatsApp
+    </a>
+    <a href="https://tiktok.com/@widzzp" target="_blank" class="flex items-center gap-2 bg-black hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition">
+      <i class="ph ph-tiktok-logo"></i> Follow TikTok @widzzp
+    </a>
+  </div>
+
+  <footer class="text-center text-sm text-gray-500 py-6">
+    &copy; 2025 Komunitas Mabar Game. By Widzz
+  </footer>
+
+</body>
+</html>
